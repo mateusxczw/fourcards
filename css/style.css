@@ -28,7 +28,7 @@ body {
 }
 
 header {
-  padding-top: 80px;
+  padding-top: 60px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -84,6 +84,9 @@ header p + p {
 .subgrid img {
   place-self: end;
 }
+.double-square {
+  margin-bottom: 40px;
+}
 
 .double-square {
   display: grid;
@@ -113,7 +116,6 @@ header p + p {
   header .p {
     font-size: 1.8rem;
   }
-
   .grid,
   .double-square {
     gap: 20px;
